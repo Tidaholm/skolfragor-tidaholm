@@ -41,3 +41,6 @@ dialog{border-radius:18px}
 .question,.formula,.municipal-source{border-radius:10px}
 .voice-grid blockquote{border-radius:16px;box-shadow:0 4px 18px rgba(28,56,45,.04)}
 @media(max-width:600px){.question-hero{padding:48px 0 34px}.question-hero h1{font-size:clamp(39px,11vw,48px)}.questions-section{padding-top:38px}.point{border-radius:14px}}
+
+.calculator-links{display:flex;flex-wrap:wrap;align-items:center;gap:14px}.calculator-links .edit-button{margin-left:0}.topic-detail{margin-top:24px;border-top:1px solid var(--line);padding-top:18px}.topic-detail>summary{cursor:pointer;font-size:15px;font-weight:700;line-height:1.5}.topic-detail[open]>summary{margin-bottom:20px}.effects-list .text-button{display:block;margin-top:8px;line-height:1.6}@media(min-width:951px){.point-grid{grid-template-columns:repeat(5,1fr)}}@media print{.point-grid{grid-template-columns:repeat(5,1fr)}.calculator-links{display:none}}
+
